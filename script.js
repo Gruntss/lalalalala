@@ -26,8 +26,10 @@ noButton.addEventListener("click", function () {
   }
 });
 
-function handleYes() {
-    window.location.href = "yes_page.html";
+function handleYesClick() {
+  titleElement.innerHTML = "Yayyy!! :3";
+  buttonsContainer.classList.add("hidden");
+  changeImage("yes");
 }
 
 function resizeYesButton() {
@@ -40,11 +42,10 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No",
+    "No", 
     "Pookie pleaseee 🥺💕",
-    "If you say no, my heart will shatter into a million tiny pieces 😭💔",
-    "You're breaking my heart 💔🥹",
-    "Fine, I'll stop asking 😔",
+    "If you say no, my heart will shatter into a million tiny pieces 😭💔", 
+    "You're breaking my heart 💔🥹", "Fine, I'll stop asking 😔",
     "Hehe, just kidding! Please say yes, Miss Ganda? 🥰",
   ];
 
@@ -53,7 +54,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cats-${image}.jpg`;
+  catImg.src = `img/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
