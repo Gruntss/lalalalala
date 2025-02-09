@@ -26,10 +26,8 @@ noButton.addEventListener("click", function () {
   }
 });
 
-function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
-  buttonsContainer.classList.add("hidden");
-  changeImage("yes");
+function handleYes() {
+    window.location.href = "yes_page.html";
 }
 
 function resizeYesButton() {
