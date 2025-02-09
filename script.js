@@ -27,9 +27,11 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
+  document.querySelector("h1").style.display = "none";
+  document.querySelector(".buttons").style.display = "none";
   titleElement.innerHTML = "Yayyy! I knew you would say yes! :3";
-  buttonsContainer.classList.add("hidden");
   changeImage("yes");
+  document.querySelector(".gif_container").style.display = "block";
 }
 
 function resizeYesButton() {
