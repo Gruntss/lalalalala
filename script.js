@@ -26,12 +26,8 @@ noButton.addEventListener("click", function () {
   }
 });
 
-function handleYesClick() {
-  document.querySelector("h1").style.display = "none";
-  document.querySelector(".buttons").style.display = "none";
-  titleElement.innerHTML = "Yayyy! I knew you would say yes! :3";
-  changeImage("yes");
-  document.querySelector(".gif_container").style.display = "block";
+function handleYes() {
+    window.location.href = "yes_page.html";
 }
 
 function resizeYesButton() {
