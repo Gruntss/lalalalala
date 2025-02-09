@@ -12,6 +12,9 @@ let play = true;
 let noCount = 0;
 
 yesButton.addEventListener("click", handleYesClick);
+function handleYes() {
+    window.location.href = "yes_page.html";
+}
 
 noButton.addEventListener("click", function () {
   if (play) {
@@ -25,10 +28,6 @@ noButton.addEventListener("click", function () {
     }
   }
 });
-
-function handleYes() {
-    window.location.href = "yes_page.html";
-}
 
 function resizeYesButton() {
   const computedStyle = window.getComputedStyle(yesButton);
