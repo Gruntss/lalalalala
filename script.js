@@ -40,10 +40,10 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No", 
-    "Pookie pleaseee 🥺💕",
-    "If you say no, my heart will shatter into a million tiny pieces 😭💔", 
-    "You're breaking my heart 💔🥹", "Fine, I'll stop asking 😔",
-    "Hehe, just kidding! Please say yes, Miss Ganda? 🥰",
+    "Minsan lang toh g",
+    "tablahan naba", 
+    "tropa pero parang kalaban",
+    "tulog nalang ako",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
