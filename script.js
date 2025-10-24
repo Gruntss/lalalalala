@@ -11,7 +11,7 @@ const MAX_IMAGES = 5;
 let play = true;
 let noCount = 0;
 
-yesButton.addEventListener("click", handleYesClick);
+yesButton.addEventListener("click", handleYes);
 function handleYes() {
     window.location.href = "yes_page.html";
 }
